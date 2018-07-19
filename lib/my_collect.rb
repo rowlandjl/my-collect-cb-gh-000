@@ -6,4 +6,5 @@ def my_collect(array)
     capitalized_names << yield(array[i].upcase)
     i += 1
   end
+  capitalized_names
 end
